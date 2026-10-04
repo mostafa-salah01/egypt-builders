@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تفاصيل المشروع | شركة بناة مصر للإنشاءات والمقاولات</title>
+  <meta name="description" content="تفاصيل ومواصفات المشروع الإنشائي المنفذ بواسطة شركة بناة مصر للإنشاءات والمقاولات.">
+  <link rel="icon" type="image/png" href="./images/logo-icon.png">
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- الهيدر الموحد -->
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <!-- بانر الصفحة الداخلي (banner.jpg) -->
+    <section class="inner-banner" style="background-image: url('./images/banner.jpg');">
+      <div class="inner-banner-overlay"></div>
+      <div class="container inner-banner-content">
+        <h1 class="inner-banner-title" data-i18n="btnViewProject">تفاصيل المشروع</h1>
+        <div class="breadcrumb-nav">
+          <a href="./index.html" data-i18n="navHome">الرئيسية</a>
+          <span>/</span>
+          <a href="./projects.html" data-i18n="navProjects">مشروعاتنا</a>
+          <span>/</span>
+          <span id="breadcrumb-project-title">المشروع</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- حاوية تفاصيل المشروع الديناميكية المعتمدة على data.js -->
+    <section class="section">
+      <div class="container" id="project-details-container">
+        <!-- يتم ملء المحتوى تلقائياً بواسطة initProjectDetailsPage في main.js -->
+        <div style="text-align: center; padding: 4rem 1rem;">
+          <p style="color:var(--text-muted); font-size:1.2rem;">جارٍ تحميل تفاصيل المشروع...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- دعوة للتواصل -->
+    <section class="cta-banner-section" style="background-image: url('./images/cta-bg.jpg');">
+      <div class="cta-overlay"></div>
+      <div class="container cta-inner">
+        <h2 class="cta-title">هل لديك استفسار حول هذا المشروع أو ترغب في مقايسة؟</h2>
+        <p class="cta-desc">فريقنا الهندسي في بناة مصر جاهز لتقديم المشورة التقنية ودراسة الجدوى الإنشائية لمشروعك.</p>
+        <div class="cta-btns">
+          <a href="./contact.html" class="btn btn-gold">طلب عرض سعر مخصص</a>
+          <a href="https://wa.me/201002345678" target="_blank" rel="noopener" class="btn btn-outline-white">تواصل عبر واتساب</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر الموحد -->
+  <div id="site-footer"></div>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>

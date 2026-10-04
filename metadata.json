@@ -1,0 +1,8 @@
+{
+  "name": "بناة مصر للإنشاءات والمقاولات",
+  "description": "الموقع الرسمي لشركة بناة مصر للإنشاءات والمقاولات (Egypt Builders - EB) - ريادة هندسية وعراقة في بناء المستقبل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

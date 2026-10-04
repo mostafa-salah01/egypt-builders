@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا | شركة بناة مصر للإنشاءات والمقاولات (Egypt Builders)</title>
+  <meta name="description" content="تواصل مع شركة بناة مصر للإنشاءات والمقاولات لطلب عروض الأسعار، الاستشارات الهندسية ومناقشة مشروعات المقاولات والتطوير في مصر.">
+  <link rel="icon" type="image/png" href="./images/logo-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./contact.html">
+  <meta property="og:title" content="اتصل بنا | بناة مصر للإنشاءات والمقاولات">
+  <meta property="og:description" content="فريقنا الهندسي مستعد لمساعدتك في دراسة المخططات وتقديم عروض أسعار متكاملة.">
+  <meta property="og:image" content="./images/logo-icon.png">
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- الهيدر الموحد -->
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <!-- بانر الصفحة الداخلي (banner.jpg) -->
+    <section class="inner-banner" style="background-image: url('./images/banner.jpg');">
+      <div class="inner-banner-overlay"></div>
+      <div class="container inner-banner-content">
+        <h1 class="inner-banner-title" data-i18n="navContact">اتصل بنا</h1>
+        <div class="breadcrumb-nav">
+          <a href="./index.html" data-i18n="navHome">الرئيسية</a>
+          <span>/</span>
+          <span data-i18n="navContact">اتصل بنا</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الاتصال ونموذج طلب المقايسة -->
+    <section class="section islamic-pattern">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle" data-i18n="contactPageSubtitle">تواصل مباشر</span>
+          <h2 class="section-title" data-i18n="contactPageTitle">تواصل مع فريق بناة مصر</h2>
+          <p class="section-desc">نسعد باستقبال استفساراتكم ومناقشة مشروعاتكم الهندسية على مدار الأسبوع.</p>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr; gap:3rem; align-items:start;">
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:3rem;">
+            
+            <!-- نموذج التواصل -->
+            <div style="background:var(--white); padding:2.5rem; border-radius:var(--radius-lg); box-shadow:var(--shadow-lg); border:1px solid var(--border);">
+              <h3 style="font-size:1.6rem; font-weight:800; color:var(--blue); margin-bottom:1.5rem; border-bottom:2px solid var(--gold); padding-bottom:0.75rem;">
+                طلب استشارة هندسية أو عرض سعر
+              </h3>
+
+              <form id="eb-contact-form" action="https://formspree.io/f/xvgzqgky" method="POST">
+                <div style="display:flex; flex-direction:column; gap:1.25rem;">
+                  <!-- الاسم -->
+                  <div>
+                    <label for="form-name" style="display:block; font-weight:700; color:var(--blue-dark); font-size:0.92rem; margin-bottom:0.4rem;">
+                      <span data-i18n="formName">الاسم بالكامل</span> <span style="color:var(--terracotta);">*</span>
+                    </label>
+                    <input type="text" id="form-name" name="name" required placeholder="م. أحمد محمد" style="width:100%; padding:0.85rem 1rem; border:1px solid var(--border); border-radius:var(--radius-sm); background:var(--light); font-weight:600;">
+                  </div>
+
+                  <!-- الهاتف -->
+                  <div>
+                    <label for="form-phone" style="display:block; font-weight:700; color:var(--blue-dark); font-size:0.92rem; margin-bottom:0.4rem;">
+                      <span data-i18n="formPhone">رقم الهاتف / الواتساب</span> <span style="color:var(--terracotta);">*</span>
+                    </label>
+                    <input type="tel" id="form-phone" name="phone" required placeholder="+20 100 123 4567" style="width:100%; padding:0.85rem 1rem; border:1px solid var(--border); border-radius:var(--radius-sm); background:var(--light); font-weight:600;" dir="ltr">
+                  </div>
+
+                  <!-- البريد -->
+                  <div>
+                    <label for="form-email" style="display:block; font-weight:700; color:var(--blue-dark); font-size:0.92rem; margin-bottom:0.4rem;">
+                      <span data-i18n="formEmail">البريد الإلكتروني</span>
+                    </label>
+                    <input type="email" id="form-email" name="email" placeholder="client@example.com" style="width:100%; padding:0.85rem 1rem; border:1px solid var(--border); border-radius:var(--radius-sm); background:var(--light); font-weight:600;" dir="ltr">
+                  </div>
+
+                  <!-- نوع المشروع -->
+                  <div>
+                    <label for="form-project-type" style="display:block; font-weight:700; color:var(--blue-dark); font-size:0.92rem; margin-bottom:0.4rem;">
+                      <span data-i18n="formProjectType">نوع المشروع</span>
+                    </label>
+                    <select id="form-project-type" name="project_type" style="width:100%; padding:0.85rem 1rem; border:1px solid var(--border); border-radius:var(--radius-sm); background:var(--light); font-weight:700; color:var(--text-dark);">
+                      <option value="" data-i18n="formSelectType">اختر نوع المشروع...</option>
+                      <option value="Residential" data-i18n="formTypeRes">مجمع سكني أو فيلا خاصة</option>
+                      <option value="Commercial" data-i18n="formTypeCom">برج تجاري أو مبنى إداري</option>
+                      <option value="Industrial" data-i18n="formTypeInd">منشأة صناعية أو مستودع</option>
+                      <option value="Infrastructure" data-i18n="formTypeInfra">مشروع بنية تحتية أو طرق</option>
+                      <option value="Finishing" data-i18n="formTypeFinish">تشطيبات وتصميم داخلي</option>
+                      <option value="Other" data-i18n="formTypeOther">أخرى</option>
+                    </select>
+                  </div>
+
+                  <!-- تفاصيل الرسالة -->
+                  <div>
+                    <label for="form-message" style="display:block; font-weight:700; color:var(--blue-dark); font-size:0.92rem; margin-bottom:0.4rem;">
+                      <span data-i18n="formMessage">تفاصيل واستفسارات المشروع</span> <span style="color:var(--terracotta);">*</span>
+                    </label>
+                    <textarea id="form-message" name="message" rows="4" required placeholder="صف طبيعة مشروعك، المساحة المقدرة، الموقع، وأي متطلبات خاصة..." style="width:100%; padding:0.85rem 1rem; border:1px solid var(--border); border-radius:var(--radius-sm); background:var(--light); font-weight:600; resize:vertical;"></textarea>
+                  </div>
+
+                  <!-- أزرار الإرسال -->
+                  <div style="display:flex; flex-direction:column; gap:0.75rem; margin-top:0.5rem;">
+                    <button type="submit" class="btn btn-gold" style="width:100%; font-size:1.05rem;" data-i18n="btnSendDirect">
+                      <span>📤</span>
+                      <span>إرسال الرسالة للمراجعة الهندسية</span>
+                    </button>
+
+                    <button type="button" id="send-wa-direct-btn" class="btn btn-outline-white" style="width:100%; border-color:#25D366; color:#128C7E; font-size:0.98rem; background:#EDF9F2;">
+                      <span>💬</span>
+                      <span data-i18n="btnSendWhatsApp">إرسال البيانات فوراً عبر واتساب</span>
+                    </button>
+                  </div>
+
+                  <div id="form-status-message" style="display:none;"></div>
+                </div>
+              </form>
+            </div>
+
+            <!-- بطاقات بيانات الاتصال السريعة -->
+            <div style="display:flex; flex-direction:column; gap:1.5rem;">
+              <!-- بطاقة العنوان والمقر -->
+              <div style="background:var(--white); padding:2rem; border-radius:var(--radius-md); box-shadow:var(--shadow-sm); border:1px solid var(--border); display:flex; align-items:flex-start; gap:1.25rem;">
+                <div style="width:48px; height:48px; border-radius:50%; background:var(--blue-50); color:var(--blue); display:flex; align-items:center; justify-content:center; font-size:1.4rem; flex-shrink:0;">📍</div>
+                <div>
+                  <h4 style="font-size:1.15rem; font-weight:800; color:var(--blue); margin-bottom:0.4rem;">المقر الرئيسي</h4>
+                  <p style="color:var(--text-muted); line-height:1.6; font-size:0.95rem;">
+                    قطعة 48، مجمع البنوك والشركات، التجمع الخامس، القاهرة الجديدة، جمهورية مصر العربية.
+                  </p>
+                </div>
+              </div>
+
+              <!-- بطاقة الهاتف المباشر -->
+              <div style="background:var(--white); padding:2rem; border-radius:var(--radius-md); box-shadow:var(--shadow-sm); border:1px solid var(--border); display:flex; align-items:flex-start; gap:1.25rem;">
+                <div style="width:48px; height:48px; border-radius:50%; background:var(--gold-50); color:var(--gold-dark); display:flex; align-items:center; justify-content:center; font-size:1.4rem; flex-shrink:0;">📞</div>
+                <div>
+                  <h4 style="font-size:1.15rem; font-weight:800; color:var(--blue); margin-bottom:0.4rem;">أرقام الهاتف والواتساب</h4>
+                  <p style="color:var(--text-muted); line-height:1.8; font-size:0.95rem;">
+                    الخط الأرضي: <a href="tel:+20227958800" dir="ltr" style="font-weight:700; color:var(--blue);">+20 2 2795 8800</a><br>
+                    موبايل / واتساب: <a href="tel:+201002345678" dir="ltr" style="font-weight:700; color:var(--gold-dark);">+20 100 234 5678</a>
+                  </p>
+                </div>
+              </div>
+
+              <!-- بطاقة البريد والمواعيد -->
+              <div style="background:var(--white); padding:2rem; border-radius:var(--radius-md); box-shadow:var(--shadow-sm); border:1px solid var(--border); display:flex; align-items:flex-start; gap:1.25rem;">
+                <div style="width:48px; height:48px; border-radius:50%; background:var(--terracotta-50); color:var(--terracotta); display:flex; align-items:center; justify-content:center; font-size:1.4rem; flex-shrink:0;">✉️</div>
+                <div>
+                  <h4 style="font-size:1.15rem; font-weight:800; color:var(--blue); margin-bottom:0.4rem;">المراسلات وساعات العمل</h4>
+                  <p style="color:var(--text-muted); line-height:1.8; font-size:0.95rem;">
+                    البريد: <a href="mailto:info@egyptbuilders.com" style="font-weight:700; color:var(--blue);">info@egyptbuilders.com</a><br>
+                    أوقات العمل: السبت - الخميس: 8:30 ص - 5:30 م
+                  </p>
+                </div>
+              </div>
+
+              <!-- خريطة Google Maps المدمجة -->
+              <div style="border-radius:var(--radius-md); overflow:hidden; box-shadow:var(--shadow-md); border:1px solid var(--border); height:220px;">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.60389552697!2d31.392095629166874!3d30.007960133983277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e3e1f013c!2sNew%20Cairo%201%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1700000000000!5m2!1sen!2seg" 
+                  width="100%" 
+                  height="100%" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="موقع شركة بناة مصر بالقاهرة الجديدة">
+                </iframe>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر الموحد -->
+  <div id="site-footer"></div>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>

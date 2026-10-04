@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#B8935A"/>
+      <stop offset="100%" stop-color="#997332"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#246091"/>
+      <stop offset="50%" stop-color="#1B4F7A"/>
+      <stop offset="100%" stop-color="#103352"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F6F8"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Outer Shield Badge -->
+  <circle cx="256" cy="256" r="236" fill="url(#skyGrad)" stroke="url(#goldGrad)" stroke-width="8" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="222" fill="none" stroke="#1B4F7A" stroke-width="2" stroke-dasharray="6 4" opacity="0.4"/>
+
+  <!-- Geometric Architectural Islamic Star Accent in Background -->
+  <g opacity="0.08" fill="#1B4F7A">
+    <polygon points="256,70 300,160 400,160 320,220 350,310 256,260 162,310 192,220 112,160 212,160"/>
+  </g>
+
+  <!-- Modern Skyscraper Towers -->
+  <!-- Left Building (Medium) -->
+  <path d="M165 370 L165 210 L220 180 L220 370 Z" fill="url(#blueGrad)" opacity="0.9"/>
+  <!-- Left Building Windows -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <rect x="175" y="225" width="8" height="12" rx="1"/>
+    <rect x="195" y="225" width="8" height="12" rx="1"/>
+    <rect x="175" y="250" width="8" height="12" rx="1"/>
+    <rect x="195" y="250" width="8" height="12" rx="1"/>
+    <rect x="175" y="275" width="8" height="12" rx="1"/>
+    <rect x="195" y="275" width="8" height="12" rx="1"/>
+    <rect x="175" y="300" width="8" height="12" rx="1"/>
+    <rect x="195" y="300" width="8" height="12" rx="1"/>
+    <rect x="175" y="325" width="8" height="12" rx="1"/>
+    <rect x="195" y="325" width="8" height="12" rx="1"/>
+  </g>
+
+  <!-- Center Tower (Tallest - Pinnacle with Needle) -->
+  <path d="M225 370 L225 140 L256 100 L287 140 L287 370 Z" fill="url(#blueGrad)"/>
+  <!-- Pinnacle Spire -->
+  <line x1="256" y1="100" x2="256" y2="70" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="256" cy="68" r="4" fill="#D4AF37"/>
+  <!-- Center Tower Glass Facade Lines -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75">
+    <line x1="240" y1="150" x2="240" y2="360"/>
+    <line x1="256" y1="125" x2="256" y2="360"/>
+    <line x1="272" y1="150" x2="272" y2="360"/>
+    <line x1="230" y1="180" x2="282" y2="180"/>
+    <line x1="230" y1="220" x2="282" y2="220"/>
+    <line x1="230" y1="260" x2="282" y2="260"/>
+    <line x1="230" y1="300" x2="282" y2="300"/>
+    <line x1="230" y1="340" x2="282" y2="340"/>
+  </g>
+
+  <!-- Right Building (Step Design) -->
+  <path d="M292 370 L292 230 L325 210 L325 250 L345 250 L345 370 Z" fill="url(#blueGrad)" opacity="0.95"/>
+  <g fill="#FFFFFF" opacity="0.8">
+    <rect x="302" y="240" width="8" height="12" rx="1"/>
+    <rect x="302" y="265" width="8" height="12" rx="1"/>
+    <rect x="302" y="290" width="8" height="12" rx="1"/>
+    <rect x="302" y="315" width="8" height="12" rx="1"/>
+    <rect x="330" y="270" width="7" height="12" rx="1"/>
+    <rect x="330" y="295" width="7" height="12" rx="1"/>
+    <rect x="330" y="320" width="7" height="12" rx="1"/>
+  </g>
+
+  <!-- Golden Wheat Ear (سنبلة القمح المصرية) Curving on Left and Right / Bottom -->
+  <!-- Left Stem and Grains -->
+  <g stroke="url(#goldGrad)" fill="url(#goldGrad)">
+    <!-- Wheat Spine Arc -->
+    <path d="M120 380 Q105 270 170 170" fill="none" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Left Grains (Oval Seeds with Whiskers/Awns) -->
+    <!-- Grain 1 -->
+    <path d="M165 175 C150 165 138 180 148 190 C158 198 172 185 165 175 Z"/>
+    <line x1="150" y1="170" x2="135" y2="145" stroke-width="2"/>
+    <!-- Grain 2 -->
+    <path d="M148 195 C132 185 120 200 130 212 C142 220 156 205 148 195 Z"/>
+    <line x1="130" y1="190" x2="110" y2="170" stroke-width="2"/>
+    <!-- Grain 3 -->
+    <path d="M135 220 C118 210 108 228 118 240 C130 250 145 232 135 220 Z"/>
+    <line x1="115" y1="215" x2="90" y2="200" stroke-width="2"/>
+    <!-- Grain 4 -->
+    <path d="M125 250 C108 242 98 260 108 272 C120 282 135 264 125 250 Z"/>
+    <line x1="105" y1="245" x2="80" y2="235" stroke-width="2"/>
+    <!-- Grain 5 -->
+    <path d="M118 282 C102 276 94 295 104 306 C116 316 130 296 118 282 Z"/>
+    <line x1="100" y1="280" x2="75" y2="275" stroke-width="2"/>
+    <!-- Grain 6 -->
+    <path d="M115 315 C100 310 94 330 104 340 C116 348 128 328 115 315 Z"/>
+    <line x1="98" y1="315" x2="75" y2="315" stroke-width="2"/>
+    <!-- Grain 7 -->
+    <path d="M115 348 C102 345 98 364 108 372 C120 380 130 360 115 348 Z"/>
+  </g>
+
+  <!-- Right Laurel / Architectural Arc -->
+  <g stroke="url(#goldGrad)" fill="url(#goldGrad)">
+    <path d="M392 380 Q407 270 342 170" fill="none" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M347 175 C362 165 374 180 364 190 C354 198 340 185 347 175 Z"/>
+    <line x1="362" y1="170" x2="377" y2="145" stroke-width="2"/>
+    <path d="M364 195 C380 185 392 200 382 212 C370 220 356 205 364 195 Z"/>
+    <line x1="382" y1="190" x2="402" y2="170" stroke-width="2"/>
+    <path d="M377 220 C394 210 404 228 394 240 C382 250 367 232 377 220 Z"/>
+    <line x1="397" y1="215" x2="422" y2="200" stroke-width="2"/>
+    <path d="M387 250 C404 242 414 260 404 272 C392 282 377 264 387 250 Z"/>
+    <line x1="407" y1="245" x2="432" y2="235" stroke-width="2"/>
+    <path d="M394 282 C410 276 418 295 408 306 C396 316 382 296 394 282 Z"/>
+    <line x1="412" y1="280" x2="437" y2="275" stroke-width="2"/>
+    <path d="M397 315 C412 310 418 330 408 340 C396 348 384 328 397 315 Z"/>
+    <line x1="414" y1="315" x2="437" y2="315" stroke-width="2"/>
+    <path d="M397 348 C410 345 414 364 404 372 C392 380 382 360 397 348 Z"/>
+  </g>
+
+  <!-- Foundation Base Banner with EB Monogram -->
+  <path d="M140 375 L372 375 L352 425 L160 425 Z" fill="url(#blueGrad)" stroke="url(#goldGrad)" stroke-width="3"/>
+  <text x="256" y="414" font-family="'Cairo', 'Cinzel', 'Trajan Pro', sans-serif" font-size="34" font-weight="900" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="6">EB</text>
+
+  <!-- Established year badge -->
+  <rect x="216" y="433" width="80" height="22" rx="4" fill="url(#goldGrad)"/>
+  <text x="256" y="448" font-family="'Cairo', sans-serif" font-size="12" font-weight="800" fill="#1B4F7A" text-anchor="middle">EST. 1998</text>
+</svg>

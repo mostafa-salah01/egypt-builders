@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مشروعاتنا وسابقة الأعمال | شركة بناة مصر للإنشاءات والمقاولات</title>
+  <meta name="description" content="تصفح سابقة أعمال شركة بناة مصر للإنشاءات والمقاولات: أبراج إدارية وتجارية بالعاصمة الإدارية، كمبوندات سكنية بالقاهرة الجديدة، مجمعات صناعية ومحاور طرق كبرى.">
+  <link rel="icon" type="image/png" href="./images/logo-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./projects.html">
+  <meta property="og:title" content="مشروعاتنا | بناة مصر للإنشاءات والمقاولات">
+  <meta property="og:description" content="صروح معمارية وهندسية شيدتها سواعد بناة مصر بأعلى معايير الإتقان والاستدامة.">
+  <meta property="og:image" content="./images/logo-icon.png">
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- الهيدر الموحد -->
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <!-- بانر الصفحة الداخلي (banner.jpg) -->
+    <section class="inner-banner" style="background-image: url('./images/banner.jpg');">
+      <div class="inner-banner-overlay"></div>
+      <div class="container inner-banner-content">
+        <h1 class="inner-banner-title" data-i18n="navProjects">مشروعاتنا وسابقة الأعمال</h1>
+        <div class="breadcrumb-nav">
+          <a href="./index.html" data-i18n="navHome">الرئيسية</a>
+          <span>/</span>
+          <span data-i18n="navProjects">مشروعاتنا</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- معرض المشروعات مع الفلاتر والـ Lightbox -->
+    <section class="section islamic-pattern">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle" data-i18n="secProjectsSubtitle">سابقة أعمالنا الفاخرة</span>
+          <h2 class="section-title">صروح معمارية تروي قصة التميز والريادة</h2>
+          <p class="section-desc">استكشف المشروعات المنفذة وقيد التسليم عبر مختلف القطاعات الإنشائية والحيوية.</p>
+        </div>
+
+        <!-- شريط الفلاتر التفاعلي -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all" data-i18n="filterAll">الكل</button>
+          <button class="filter-btn" data-filter="residential" data-i18n="filterResidential">سكني</button>
+          <button class="filter-btn" data-filter="commercial" data-i18n="filterCommercial">تجاري وإداري</button>
+          <button class="filter-btn" data-filter="industrial" data-i18n="filterIndustrial">صناعي</button>
+          <button class="filter-btn" data-filter="infrastructure" data-i18n="filterInfrastructure">بنية تحتية</button>
+        </div>
+
+        <!-- شبكة المشروعات (Projects Grid) -->
+        <div class="projects-grid" id="projects-catalog">
+          <!-- مشروع 1: سكني -->
+          <div class="project-card" data-category="residential">
+            <div class="project-img-box">
+              <img src="./images/project-01.jpg" alt="كمبوند كابيتال ريزيدنس الفاخر" loading="lazy">
+              <span class="project-badge">سكني</span>
+              <button class="lightbox-trigger-btn" data-lightbox-src="./images/project-01.jpg" data-lightbox-caption="كمبوند كابيتال ريزيدنس الفاخر - القاهرة الجديدة" title="معاينة الصورة مكبرة" style="position:absolute; bottom:10px; left:10px; background:rgba(10,34,57,0.85); color:#fff; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer;">🔍</button>
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-location">📍 القاهرة الجديدة، التجمع السادس</div>
+              <h3 class="project-card-title">كمبوند كابيتال ريزيدنس الفاخر</h3>
+              <p class="project-card-summary">مجمع سكني راقٍ يضم 240 فيلا مستقلة وتوين هاوس مع مبنى اجتماعي وكلوب هاوس ومسطحات مائية خلابة.</p>
+              <div class="project-meta-row">
+                <span>المساحة: 185,000 م²</span>
+                <span>الجهة: مصر للاستثمار العقاري</span>
+              </div>
+              <a href="./project-details.html?id=capital-residence" class="project-card-btn">عرض التفاصيل والمواصفات الكاملة ←</a>
+            </div>
+          </div>
+
+          <!-- مشروع 2: تجاري وإداري -->
+          <div class="project-card" data-category="commercial">
+            <div class="project-img-box">
+              <img src="./images/project-02.jpg" alt="برج النيل للأعمال والمال" loading="lazy">
+              <span class="project-badge">تجاري وإداري</span>
+              <button class="lightbox-trigger-btn" data-lightbox-src="./images/project-02.jpg" data-lightbox-caption="برج النيل للأعمال والمال - العاصمة الإدارية الجديدة" title="معاينة الصورة مكبرة" style="position:absolute; bottom:10px; left:10px; background:rgba(10,34,57,0.85); color:#fff; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer;">🔍</button>
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-location">📍 العاصمة الإدارية الجديدة، حي المال والأعمال</div>
+              <h3 class="project-card-title">برج النيل للأعمال والمال</h3>
+              <p class="project-card-summary">برج أيقوني بارتفاع 34 طابقاً مجهز بأحدث النظم الذكية ومقرات للبنوك ومراكز أعمال بمواصفات عالمية.</p>
+              <div class="project-meta-row">
+                <span>المساحة: 46,000 م²</span>
+                <span>الجهة: تحالف البنوك الدولية</span>
+              </div>
+              <a href="./project-details.html?id=nile-business-tower" class="project-card-btn">عرض التفاصيل والمواصفات الكاملة ←</a>
+            </div>
+          </div>
+
+          <!-- مشروع 3: صناعي -->
+          <div class="project-card" data-category="industrial">
+            <div class="project-img-box">
+              <img src="./images/project-03.jpg" alt="مجمع الدلتا للصناعات الهندسية" loading="lazy">
+              <span class="project-badge">صناعي</span>
+              <button class="lightbox-trigger-btn" data-lightbox-src="./images/project-03.jpg" data-lightbox-caption="مجمع الدلتا للصناعات الهندسية - العاشر من رمضان" title="معاينة الصورة مكبرة" style="position:absolute; bottom:10px; left:10px; background:rgba(10,34,57,0.85); color:#fff; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer;">🔍</button>
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-location">📍 مدينة العاشر من رمضان الصناعية</div>
+              <h3 class="project-card-title">مجمع الدلتا للصناعات الهندسية</h3>
+              <p class="project-card-summary">مصنع متطور يضم 4 عنابر عملاقة بهياكل معدنية ومباني إدارية ومحطة محولات كهربائية خاصة.</p>
+              <div class="project-meta-row">
+                <span>المساحة: 95,000 م²</span>
+                <span>الجهة: الدلتا للصناعات الثقيلة</span>
+              </div>
+              <a href="./project-details.html?id=delta-industrial-complex" class="project-card-btn">عرض التفاصيل والمواصفات الكاملة ←</a>
+            </div>
+          </div>
+
+          <!-- مشروع 4: بنية تحتية -->
+          <div class="project-card" data-category="infrastructure">
+            <div class="project-img-box">
+              <img src="./images/project-04.jpg" alt="محور وكباري تنمية السويس الجديدة" loading="lazy">
+              <span class="project-badge">بنية تحتية</span>
+              <button class="lightbox-trigger-btn" data-lightbox-src="./images/project-04.jpg" data-lightbox-caption="محور وكباري تنمية السويس الجديدة" title="معاينة الصورة مكبرة" style="position:absolute; bottom:10px; left:10px; background:rgba(10,34,57,0.85); color:#fff; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer;">🔍</button>
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-location">📍 طريق السويس - العين السخنة</div>
+              <h3 class="project-card-title">محور وكباري تنمية السويس الجديدة</h3>
+              <p class="project-card-summary">إنشاء كوبريين علويين بطول إجمالي 2.4 كم وتوسعة المحور الرئيسي لخدمة المشروعات اللوجستية.</p>
+              <div class="project-meta-row">
+                <span>الطول: 18 كم طولي</span>
+                <span>الجهة: الهيئة العامة للطرق والكباري</span>
+              </div>
+              <a href="./project-details.html?id=suez-bridge-axis" class="project-card-btn">عرض التفاصيل والمواصفات الكاملة ←</a>
+            </div>
+          </div>
+
+          <!-- مشروع 5: سكني -->
+          <div class="project-card" data-category="residential">
+            <div class="project-img-box">
+              <img src="./images/project-05.jpg" alt="فيلات زايد ديونز الفندقية" loading="lazy">
+              <span class="project-badge">سكني</span>
+              <button class="lightbox-trigger-btn" data-lightbox-src="./images/project-05.jpg" data-lightbox-caption="فيلات زايد ديونز الفندقية - الشيخ زايد" title="معاينة الصورة مكبرة" style="position:absolute; bottom:10px; left:10px; background:rgba(10,34,57,0.85); color:#fff; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer;">🔍</button>
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-location">📍 مدينة الشيخ زايد، الجيزة</div>
+              <h3 class="project-card-title">فيلات زايد ديونز الفندقية</h3>
+              <p class="project-card-summary">حي فيلات فندقية ذات طابع معماري نيو كلاسيكي مع تشطيبات رخامية إيطالية وتجهيزات ذكية بالكامل.</p>
+              <div class="project-meta-row">
+                <span>المساحة: 72,000 م²</span>
+                <span>الجهة: الأفق للتطوير العمراني</span>
+              </div>
+              <a href="./project-details.html?id=zayed-dunes-villas" class="project-card-btn">عرض التفاصيل والمواصفات الكاملة ←</a>
+            </div>
+          </div>
+
+          <!-- مشروع 6: تجاري وإداري -->
+          <div class="project-card" data-category="commercial">
+            <div class="project-img-box">
+              <img src="./images/project-06.jpg" alt="مركز القاهرة المالي ومول البلازا" loading="lazy">
+              <span class="project-badge">تجاري وإداري</span>
+              <button class="lightbox-trigger-btn" data-lightbox-src="./images/project-06.jpg" data-lightbox-caption="مركز القاهرة المالي ومول البلازا - التجمع الخامس" title="معاينة الصورة مكبرة" style="position:absolute; bottom:10px; left:10px; background:rgba(10,34,57,0.85); color:#fff; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer;">🔍</button>
+            </div>
+            <div class="project-card-body">
+              <div class="project-card-location">📍 التجمع الخامس، شارع التسعين الجنوبي</div>
+              <h3 class="project-card-title">مركز القاهرة المالي ومول البلازا</h3>
+              <p class="project-card-summary">مجمع تجاري وإداري متكامل يجمع بين المحال التجارية الفاخرة، ومطاعم البلازا المفتوحة، ومكاتب كبرى الشركات.</p>
+              <div class="project-meta-row">
+                <span>المساحة: 62,000 م²</span>
+                <span>الجهة: المصرية للتجارة والاستثمار</span>
+              </div>
+              <a href="./project-details.html?id=cairo-financial-center" class="project-card-btn">عرض التفاصيل والمواصفات الكاملة ←</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- دعوة للتواصل -->
+    <section class="cta-banner-section" style="background-image: url('./images/cta-bg.jpg');">
+      <div class="cta-overlay"></div>
+      <div class="container cta-inner">
+        <h2 class="cta-title">هل ترغب في بناء مشروع مماثل؟</h2>
+        <p class="cta-desc">فريقنا الهندسي في بناة مصر جاهز لتقديم المشورة التقنية ودراسة الجدوى الإنشائية لمشروعك.</p>
+        <div class="cta-btns">
+          <a href="./contact.html" class="btn btn-gold">طلب اجتماع عمل هندسي</a>
+          <a href="https://wa.me/201002345678" target="_blank" rel="noopener" class="btn btn-outline-white">تواصل فوري واتساب</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر الموحد -->
+  <div id="site-footer"></div>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
